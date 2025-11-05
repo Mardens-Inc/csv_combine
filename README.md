@@ -273,10 +273,6 @@ csv_combine/
 - This is expected! Files with fewer columns will have empty values for missing columns
 - Check the merged header to see all available columns
 
-## License
-
-Copyright © 2024 Drew Chase
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
