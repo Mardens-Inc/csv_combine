@@ -1,0 +1,27 @@
+# Rust
+/target
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Output files
+combined_*.csv
+single_*.csv
+combined_output.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test data
+test_data/
+
+# Claude
+.claude

@@ -1,0 +1,23 @@
+[package]
+name = "csv_combine"
+version = "0.1.0"
+edition = "2024"
+authors = ["Drew Chase"]
+description = "A smart CSV and Excel file combiner that intelligently groups files by header compatibility and merges them with automatic column alignment"
+readme = "README.md"
+keywords = ["csv", "excel", "merge", "combine", "data"]
+categories = ["command-line-utilities", "parsing"]
+
+[dependencies]
+csv = { version = "1.4.0" }
+calamine = { version = "0.31.0" }
+pretty_env_logger = "0.5.0"
+log = "0.4.28"
+anyhow = "1.0.100"
+walkdir = {version = "2.5.0"}
+system-pause = {version = "0.1.2"}
+tokio = { version = "1.48.0", features = ["macros", "fs", "rt-multi-thread"] }
+
+
+[dev-dependencies]
+tempfile = "3.14.0"
